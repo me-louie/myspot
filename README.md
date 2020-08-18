@@ -1,4 +1,4 @@
-# MySpot
+# MySpot  https://myspotmusic.herokuapp.com/
 
 ## Description:
 
@@ -57,7 +57,7 @@ In accordance with best practices, we managed our data in a single collection fo
 MySpot used ExpressJS to create the backend API. We implemented a Model-View-Controller model to improve code readability and organization. We used React Thunk to make the API calls to interact with our database. The Express server is also used to authenticate and obtain access tokens from Spotify during the login process.
 
 ### Release Engineering:
-MySpot is hosted on Heroku: https://myspotmusic.herokuapp.com/! We utilized a mono-repo and had pull request/code review protocols to aid in a smooth development process.
+MySpot is hosted on Heroku. We utilized a mono-repo and had pull request/code review protocols to aid in a smooth development process.
 
 ## Above and Beyond Functionality:
 MySpot goes above and beyond the basic requirements by extensively incorporating the Spotify API into our core app functionality. We implemented the ability to view Spotify media such as playlists, albums, favourites. Additionally, we used the Spotify api to add, edit, and remove Spotify media throughout MySpot. We also unified the user's Spotify ID as our own MySpot user ID to make transitioning between calls to the Spotify API and calls to our own API efficient while keeping the data we fetch and update from both consistent throughout our application. 
